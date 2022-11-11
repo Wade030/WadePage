@@ -4,33 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <meta name="format-detection" content="telephone=no">
     <title>我的簡介</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="row"> 
-      <div class="col-12"> 
-        <article class="c-card">
-          <div class="c-introduction">
-            <div class="c-card__img-mask"><img src="" alt=""></div>
-            <div class="c-card__infor"><span class="c-card__infor-text --zh">陳品瑋</span><span class="c-card__infor-text --en">Chen Pin-Wei</span></div>
-            <div class="c-card__birth"><span class="c-card__birth-text --zh">生日</span><span class="c-card__birth-text --en">1999.3.25</span></div>
-            <div class="c-card__hobby"><span class="c-card__hobby-title --zh">興趣
-                <div class="c-card__hobby-box">
-                  <div class="c-card__hobby-wrap --icon1">籃球</div>
-                  <div class="c-card__hobby-wrap --icon2">釣魚</div>
-                  <div class="c-card__hobby-wrap --icon3">煮飯</div>
-                </div></span></div>
-            <div class="c-card__skill"><span class="c-card__skill-title --zh">技巧
-                <div class="c-card__skill-box">
-                  <div class="c-card__skill-wrap --icon2">HTML</div>
-                  <div class="c-card__skill-wrap --icon3">CSS</div>
-                </div></span></div>
-          </div>
-        </article>
+    <article class="l-card">
+      <div class="l-introduction">
+        <div class="l-introduction__img-mask"><img src="img/me.jpg" alt="頭像"></div>
+        <div class="l-introduction__infor"><span class="l-introduction__infor-text --zh">陳品瑋</span><span class="l-introduction__infor-text --en">Chen Pin-Wei</span></div>
+        <div class="l-introduction__birth"><span class="l-introduction__birth-text --zh">生日</span><span class="l-introduction__birth-text --en">1999.3.25</span></div>
+        <div class="l-introduction__hobby"><span class="l-introduction__hobby-title --zh">興趣
+            <div class="l-introduction__hobby-box">
+              <div class="l-introduction__hobby-wrap --icon1">籃球</div>
+              <div class="l-introduction__hobby-wrap --icon2">釣魚</div>
+              <div class="l-introduction__hobby-wrap --icon3">煮飯</div>
+            </div></span></div>
+        <div class="l-introduction__skill"><span class="l-introduction__skill-title --zh">技巧
+            <div class="l-introduction__skill-box">
+              <div class="l-introduction__skill-wrap --icon2">HTML</div>
+              <div class="l-introduction__skill-wrap --icon3">CSS</div>
+            </div></span></div>
       </div>
-    </div>
+      <div class="l-main">
+        <navber class="c-nav">
+          <div class="c-nav__box">
+            <div class="c-nav__wrap mypage --mr"> <span>個人資料</span></div>
+            <div class="c-nav__wrap port --mr"> <span>作品</span></div>
+            <div class="c-nav__wrap about"> <span>關於我</span></div>
+          </div>
+        </navber>
+        <div class="l-main__box">
+          <div class="l-mypage">
+            <div class="l-mypage__question">
+              <div class="l-mypage__phone"><span class="l-mypage__phone-text">聯絡電話：</span></div>
+              <div class="l-mypage__addr"><span class="l-mypage__addr-text">通訊地址：</span></div>
+              <div class="l-mypage__school"><span class="l-mypage__school-text">學歷：</span></div>
+            </div>
+            <div class="l-mypage__answer">
+              <div class="l-mypage__phone"><a href="tel:+0901183325">0901183325</a></div>
+              <div class="l-mypage__addr"><span class="l-mypage__addr-text">高雄市三民區九如一路239-1號8樓</span></div>
+              <div class="l-mypage__school"><span class="l-mypage__school-text">實踐大學資通系</span></div>
+            </div>
+          </div>
+          <div class="l-port">
+            <div class="l-port__copy"><span class="l-port__copy-title">對照官網製作：</span>
+              <div class="l-port__copy-box">
+                <div class="l-port__copy-wrap"><a href="https://wade030.github.io/Nintendo/" target="_blank"> <i class="l-port__copy--mr fa-solid fa-circle-chevron-right"></i><span>Nintendo官網</span></a></div>
+              </div>
+            </div>
+            <div class="l-port__myself"><span class="l-port__myself-title">自己設計及製作：</span>
+              <div class="l-port__myself-box">
+                <div class="l-port__myself-wrap"><a href="##"> <i class="l-port__myself--mr fa-solid fa-circle-chevron-right"></i><span>個人簡介</span></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="l-about"></div>
+        </div>
+      </div>
+      <div class="l-lifeimg">
+        <div class="l-lifeimg__img-mask pic1"> <img src="img/show.jpg" alt="專題展覽"></div>
+        <div class="l-lifeimg__img-mask pic2"> <img src="img/basketball.jpg" alt="系籃"></div>
+        <div class="l-lifeimg__img-mask pic3"> <img src="img/university.jpg" alt="大學"></div>
+      </div>
+    </article>
   </body>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </html>
